@@ -1,0 +1,5 @@
+#ddev-generated
+webimage_extra_packages: [boxes, build-essential, kitty-terminfo, pv]
+hooks:
+  post-import-db:
+    - exec: /var/www/html/.ddev/hanoii/base/hooks/post-import-db.sh

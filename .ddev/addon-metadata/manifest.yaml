@@ -1,0 +1,17 @@
+name: ""
+repository: .
+version: ""
+install_date: "2024-03-20T19:11:17-03:00"
+project_files:
+    - hanoii/base/hooks/post-import-db.sh
+    - hanoii/base/hooks/post-import-db.d/.gitkeep
+    - hanoii/base/hooks/post-import-db.d/drupal.sh
+    - hanoii/base/scripts/drupal/drush-uli.sh
+    - hanoii/base/scripts/drupal/git-deleted-libraries-usage.sh
+    - hanoii/base/.ahoy.hanoii-base.drupal.yml
+    - hanoii/base/assets/drupal/dev.services.yml
+    - hanoii/base/assets/drupal/settings.dev.php
+    - hanoii/base/.ahoy.ifnotpresent.yml
+    - config.hanoii-base.yaml
+global_files: []
+removal_actions: []
